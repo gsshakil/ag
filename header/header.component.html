@@ -1,0 +1,70 @@
+<header class="main">
+    <div class="top-header">
+      <div class="left-drawer">
+            <!-- <div class="mat-app-background basic-container">
+              <app-left-drawer>loading</app-left-drawer>
+            </div> -->
+      </div>
+      <div class="right-drawer">
+        
+      </div>
+      <div class="th-wrapper">
+        <div class="left-content">
+          <a (click)="leftMenuState = 'ORG'" [ngClass]="leftMenuState === 'ORG' ? 'selected' : 'st-th'"><fa-icon [icon]="faBars"></fa-icon></a>
+        </div>
+        <div class="right-content">
+           <a href=""><fa-icon [icon]="faUserCircle"></fa-icon></a>
+        </div>
+        <div class="logo">
+          <a href=""><img src="../../assets/logo.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" routerLink="/home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/people">People</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/companies">Companies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/archive">Archive</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="funding">Funding</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="mentors">Mentors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="jobs">Job Board</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="marketplace">Marketplace</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="apps">Apps</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="feed">Feed</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0 btn-search" type="submit">Search</button>
+          </form>
+      </div>
+    </div>
+  </nav>
+</header>

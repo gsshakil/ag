@@ -1,0 +1,87 @@
+.main{
+    background-color: #fff;
+}
+
+.navbar{
+    background-color: #00a651 !important;
+}
+
+header .top-header{
+    height: 100px;
+}  
+
+header .left-content{
+    height: 48px;
+    position: absolute;
+    left: 50px;
+    top: 64px;
+    width: 48px;
+}
+
+header .right-content{
+    position: absolute;
+    right: 50px;
+    top: 55px;
+}
+
+header .right-content .ng-fa-icon{
+    font-size: 36px;
+}
+
+header .logo{
+    text-align: center;
+    margin-top: 50px;
+}
+
+header .logo img{
+    width: 100px;
+}
+
+.ng-fa-icon{
+    font-size: 28px;
+    color: #00a651;
+}
+
+.btn-search{
+    color: #fff;
+    border-color: #28a745;
+    background-color: #28a745;
+}
+
+@media only screen and (max-width: 600px) {
+    header .left-content{
+        left: 30px;
+    }
+    
+    header .right-content{
+        right: 25px;
+    }
+}
+
+
+.left-drawer{
+    // position: absolute;
+    // left: 0;
+    // top: 0;
+    // width: 300px;
+    // height: 100%;
+    // background-color: #00a651;
+    // z-index: 9999;
+    // // display: none;
+    // transition: 0.7s;
+}
+
+.left-drawer.selected{
+    left: 300px;
+}
+
+.right-drawer{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #3a061a;
+    z-index: 9999;
+    display: none;
+}
